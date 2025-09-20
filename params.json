@@ -1,0 +1,42 @@
+"min_support": 2,
+"min_support_ins": 4,      
+"min_support_del": 1,     
+"min_support_dup": 10,      
+"min_support_inv": 3,
+"min_support_bnd": 1,      
+"min_support_complex": 14,  
+
+"min_af": 0.05,
+"min_af_bnd": 0.03,       
+"min_af_del": 0.015,        
+"min_af_ins": 0.25,        
+"min_af_dup": 0.40,       
+"min_af_complex": 0.75,   
+  
+"min_mapq": 30,
+"min_mapq_bnd": 5,        
+"min_sv_size": 50,
+"max_sv_size": 10000000,
+  
+"repeat_support_modifier_del": 1.0,    
+"repeat_support_modifier_ins": 0.4,     
+"repeat_support_modifier_dup": 1.6,    
+"repeat_support_modifier_inv": 2.0,    
+"repeat_support_modifier_cpx": 0.2,     
+  
+"dup_depth_threshold": 3.8,           
+"dup_min_af_depth": 0.40,             
+"dup_min_af_split": 0.40,              
+  
+"cluster_distance": 250,
+"bnd_cluster_distance": 2000,
+"size_similarity": 0.8,
+  
+"complex_sv_detection": true,
+"complex_min_signatures": 2,
+"complex_max_distance": 1000,
+"complex_merge_distance": 1000,
+  
+"enable_genotyping": true,
+"ploidy": 2,
+"expected_coverage": ${COVERAGE}
