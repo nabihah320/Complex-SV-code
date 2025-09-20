@@ -82,19 +82,19 @@ gunzip hg38.trf.bed.gz
 ### Requirements
 
 **System Tools:**
-- `python3` (≥3.8)
-- `minimap2` (≥2.24)
-- `samtools` (≥1.16)
-- `bcftools`
+- `python3` (3.13)
+- `minimap2` (2.3)
+- `samtools` (1.22)
+- `bcftools` (1.22)
 - `bgzip`
 - `tabix`
-- `truvari` (for evaluation)
+- `truvari` (4.0.0, for evaluation)
 
 **Optional Tools:**
-- `sniffles` (≥2.0, for comparison)
-- `cuteSV` (for comparison)
-- `svim` (for comparison)
-- `pbsim2` (for read simulation)
+- `sniffles` (2.6.3, for comparison)
+- `cuteSV` (2.1.2, for comparison)
+- `svim` (2.0.0, for comparison)
+- `pbsim2` (2.0.1 for read simulation)
 
 **Python Packages:**
 ```bash
