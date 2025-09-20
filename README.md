@@ -370,7 +370,7 @@ Complex-SV builds upon and complements existing tools:
 
 **Oxford Nanopore**:
 - Good deletion/insertion detection
-- Reduced duplication sensitivity (6% vs 118% on PacBio)
+- Reduced duplication sensitivity (6% vs 99% on PacBio)
 - Higher false positive rates for breakends
 
 
