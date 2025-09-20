@@ -10,7 +10,7 @@ Complex-SV is an enhanced structural variant detection pipeline that integrates 
 - **Comprehensive SV Coverage**: Detects all major SV classes (DEL, INS, DUP, INV, BND, CPX)
 - **Duplication Subtype Classification**: Distinguishes tandem from interspersed duplications
 - **Repeat-Aware Filtering**: Novel repeat region annotation and context classification
-- **Cross-Platform Support**: Optimized for both PacBio HiFi and Oxford Nanopore data
+- **Cross-Platform Support**: Optimised for both PacBio HiFi and Oxford Nanopore data
 - **Computational Efficiency**: Moderate overhead (135s runtime, 0.8GB memory) for expanded capabilities
 
 ## Performance Highlights
@@ -19,7 +19,7 @@ Complex-SV is an enhanced structural variant detection pipeline that integrates 
 - **Recall**: 0.605 (comprehensive detection across challenging variant classes)
 - **F1-Score**: 0.685 (balanced performance)
 - **Complex SVs**: 90% sensitivity (vs 0% for existing methods)
-- **Duplications**: 99% sensitivity (exceeds standard 60-80% benchmarks)
+- **Duplications**: 99% sensitivity (exceeds standard ~45% benchmarks)
 
 ## Quick Start
 
@@ -122,6 +122,11 @@ pip install truvari
 
 # Optional: Install comparison tools
 conda install -c bioconda sniffles cutesv svim
+                  **or**
+via github links:
+https://github.com/fritzsedlazeck/Sniffles
+https://github.com/eldariont/svim
+https://github.com/tjiangHIT/cuteSV
 ```
 
 3. **Download required reference data:**
