@@ -105,8 +105,8 @@ pip install pysam numpy scipy matplotlib seaborn pandas matplotlib-venn upsetplo
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/complex-sv.git
-cd complex-sv
+git clone https://github.com/nabihah320/Complex-SV-code.git
+cd Complex-SV-code
 ```
 
 2. **Install dependencies:**
@@ -131,8 +131,8 @@ wget http://hgdownload.cse.ucsc.edu/goldenpath/hg38/bigZips/hg38.trf.bed.gz
 gunzip hg38.trf.bed.gz
 
 # Download chr20 and chr21 fasta files
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/assembly_GRCh38/chr20.fa.gz
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/assembly_GRCh38/chr21.fa.gz
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr20.fa.gz
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr21.fa.gz
 gunzip chr20.fa.gz chr21.fa.gz
 
 # Combine chromosomes for testing
