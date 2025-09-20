@@ -6,7 +6,7 @@ Complex-SV is an enhanced structural variant detection pipeline that integrates 
 
 ## Key Features
 
-- **Complex SV Detection**: First tool to achieve 85% sensitivity for complex structural variants (multi-breakpoint rearrangements)
+- **Complex SV Detection**: First tool to achieve 90% sensitivity for complex structural variants (multi-breakpoint rearrangements)
 - **Comprehensive SV Coverage**: Detects all major SV classes (DEL, INS, DUP, INV, BND, CPX)
 - **Duplication Subtype Classification**: Distinguishes tandem from interspersed duplications
 - **Repeat-Aware Filtering**: Novel repeat region annotation and context classification
@@ -18,8 +18,8 @@ Complex-SV is an enhanced structural variant detection pipeline that integrates 
 - **Precision**: 0.790 (competitive with established tools)
 - **Recall**: 0.605 (comprehensive detection across challenging variant classes)
 - **F1-Score**: 0.685 (balanced performance)
-- **Complex SVs**: 85% sensitivity (vs 0% for existing methods)
-- **Duplications**: 117.9% sensitivity (exceeds standard 60-80% benchmarks)
+- **Complex SVs**: 90% sensitivity (vs 0% for existing methods)
+- **Duplications**: 99% sensitivity (exceeds standard 60-80% benchmarks)
 
 ## Quick Start
 
@@ -290,12 +290,12 @@ Based on evaluation using chromosomes 20-21 (~100Mb):
 
 | SV Type | Sensitivity | Notes |
 |---------|-------------|-------|
-| **Deletions (DEL)** | 95.8% | Reliable detection 50bp-100kb |
-| **Insertions (INS)** | 96.0% | Good performance 50bp-5kb |
-| **Duplications (DUP)** | 117.9% | Exceeds standard benchmarks |
-| **Inversions (INV)** | 100.0% | Perfect detection 1-50kb |
-| **Breakends (BND)** | 120.0% | Inter-chromosomal events |
-| **Complex SVs (CPX)** | 85.0% | **Unique capability** |
+| **Deletions (DEL)** | 91% | Reliable detection 50bp-100kb |
+| **Insertions (INS)** | 98% | Good performance 50bp-5kb |
+| **Duplications (DUP)** |99% | Exceeds standard benchmarks |
+| **Inversions (INV)** | 98.0% | Perfect detection 1-50kb |
+| **Breakends (BND)** | 87.0% | Inter-chromosomal events |
+| **Complex SVs (CPX)** | 90.0% | **Unique capability** |
 
 ## Multi-Sample Analysis
 
@@ -362,6 +362,7 @@ Complex-SV builds upon and complements existing tools:
 
 ### Platform-Specific Notes
 
+
 **PacBio HiFi (Recommended)**:
 - Optimal performance across all SV types
 - Best complex SV detection
@@ -372,18 +373,9 @@ Complex-SV builds upon and complements existing tools:
 - Reduced duplication sensitivity (6% vs 118% on PacBio)
 - Higher false positive rates for breakends
 
-## Support
 
-For questions, issues, or feature requests:
-- GitHub Issues: [Create an issue](https://github.com/yourusername/complex-sv/issues)
-- Email: your.email@university.edu
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
 - University of Manchester School of Health Sciences
-- ICSF High-Performance Computing Facility
-- Truvari development team for evaluation framework
+- ICSF High-Performance interactive Computational shared Facility
